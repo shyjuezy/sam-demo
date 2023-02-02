@@ -4,6 +4,7 @@ Resources:
   MyFunction:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: helloworld
       Handler: helloworld.lambda_handler
       Runtime: python3.9
       CodeUri: ./build
