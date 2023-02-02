@@ -1,0 +1,4 @@
+build/
+myenv/
+.idea/
+packaged-template.yaml
